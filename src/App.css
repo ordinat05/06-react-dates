@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #54e346;
+
+  /* position: relative; */
+}
+section {
+  background-color: #fffaa4;
+  padding: 40px;
+  font-family: "Antic Slab", serif;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.yanyanadiv {
+  /* border: solid 2px;
+  background: #b2d5ff; */
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 auto;
+  /* border: 1px solid blue; */
+  width: 250px;
+}
+button {
+  margin: 3px;
+}
+
+.holiday {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 10px;
+}
+img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+p {
+  letter-spacing: 1.2px;
+  margin-top: 8px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  font-family: "Antic Slab", serif;
+  padding: 12.5px 25px;
+  cursor: pointer;
+  color: black;
+  background-color: #7046e3;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 0.3s;
+  text-shadow: 1px 1px 10px rgba(21, 255, 0, 0.81);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.251);
+}
+button:hover {
+  background-color: black;
+  color: #54e346;
+  font-weight: 900;
+  text-shadow: 5px 5px 5px red;
+}
